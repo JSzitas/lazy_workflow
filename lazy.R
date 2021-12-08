@@ -1,5 +1,4 @@
 rm(list=ls())
-library(magrittr)
 
 df <- data.frame( a = rnorm(100), b = sample(letters, 100, replace = TRUE) )
 
